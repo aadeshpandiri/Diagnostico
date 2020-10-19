@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "261448040366",
+    "firebase_url": "https://diagnostico-3e136.firebaseio.com",
+    "project_id": "diagnostico-3e136",
+    "storage_bucket": "diagnostico-3e136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261448040366:android:dc2b16aeb976b24def523f",
+        "android_client_info": {
+          "package_name": "com.example.diagnostico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261448040366-36c3cpk3loqq54v51bra80n3hafb15pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClQ60poyu9WBFWgweOlKshizSaleSDZns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261448040366-36c3cpk3loqq54v51bra80n3hafb15pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
