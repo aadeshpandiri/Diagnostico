@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rundiagbackground"
+    android:orientation="vertical"
+    tools:context=".RunDiagnosis">
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:hint="Enter Your Age"
+        android:paddingLeft="15dp"
+        android:background="@drawable/runbuttonsxml"
+        android:inputType="number"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textSize="15sp">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spingender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="11dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/runbuttonsxml"
+
+         />
+
+    <Spinner
+        android:id="@+id/spinchestpain"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="11dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/runbuttonsxml" />
+
+    <Button
+        android:id="@+id/rdbutton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:onClick="rundiagnosis"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:text="Run Diagnosis"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorTextSecondary"
+        />
+
+</LinearLayout>

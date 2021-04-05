@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Diagnostico</string>
+
+    <string-array name="gender">
+        <item>Select Your Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="chestpain">
+        <item>Chest Pain Range</item>
+        <item>0 - No Pain</item>
+        <item>1 - Low</item>
+        <item>2 - Avg</item>
+        <item>3 - High</item>
+    </string-array>
 </resources>

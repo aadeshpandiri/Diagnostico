@@ -67,19 +67,19 @@ public class OnboardingActivity extends AppCompatActivity {
         List<OnboardingItem> onboardingItems = new ArrayList<>();
 
         OnboardingItem screen1 = new OnboardingItem();
-        screen1.setTitle("Title 1");
-        screen1.setDesciption("Description 1");
-        screen1.setImage(R.drawable.on1);
+        screen1.setTitle("Don't Wanna take Blood Tests?");
+        screen1.setDesciption("Please dont! Diagnostico strives to provide you with highly accurate reports using NON-INVASIVE approach");
+        screen1.setImage(R.drawable.bloodtest_onboarding);
 
         OnboardingItem screen2 = new OnboardingItem();
-        screen2.setTitle("Title 2");
-        screen2.setDesciption("Description 2");
-        screen2.setImage(R.drawable.on2);
+        screen2.setTitle("No More Waiting!");
+        screen2.setDesciption("Get your medical reports quicker than ever. All you need to do is TAP");
+        screen2.setImage(R.drawable.reportswait_onboarding);
 
         OnboardingItem screen3 = new OnboardingItem();
-        screen3.setTitle("Title 3");
-        screen3.setDesciption("Description 3");
-        screen3.setImage(R.drawable.on3);
+        screen3.setTitle("Own Your Time!");
+        screen3.setDesciption("Don't let the hospital appointments ruin your valualble time. With Diagnostico get your health check ANYTIME,ANYDAY");
+        screen3.setImage(R.drawable.appointment_onboarding);
 
         onboardingItems.add(screen1);
         onboardingItems.add(screen2);
